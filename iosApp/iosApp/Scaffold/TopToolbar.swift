@@ -41,9 +41,9 @@ struct TopToolbarContent: ToolbarContent {
                     }
                     .frame(maxWidth: 80, maxHeight: 32)
                 }
-                Text(logoText)
-                    .font(.headline.bold())
-                    .foregroundColor(headerContentColor)
+//                Text(logoText)
+//                    .font(.headline.bold())
+//                    .foregroundColor(headerContentColor)
             }
         }
 

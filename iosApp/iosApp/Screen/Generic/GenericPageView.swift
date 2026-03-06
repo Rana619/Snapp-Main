@@ -27,12 +27,6 @@ struct GenericPageView: View {
             .buttonStyle(.bordered)
 
             Spacer()
-
-            Button("Logout") {
-                authVM.logout()
-            }
-            .buttonStyle(.bordered)
-            .tint(.red)
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
