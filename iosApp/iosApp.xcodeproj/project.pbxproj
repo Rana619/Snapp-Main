@@ -35,11 +35,59 @@
 		B100003100010000000001 /* WidgetRenderContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100003100010000000002 /* WidgetRenderContext.swift */; };
 		B100003200010000000001 /* WidgetAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100003200010000000002 /* WidgetAction.swift */; };
 		B100003300010000000001 /* WidgetHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100003300010000000002 /* WidgetHost.swift */; };
+		B100008500010000000001 /* WidgetErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100008500010000000002 /* WidgetErrorWrapper.swift */; };
 		B100004000010000000001 /* AppNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100004000010000000002 /* AppNavigationStack.swift */; };
 		B100004100010000000001 /* NotFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100004100010000000002 /* NotFoundView.swift */; };
 		B100004300010000000001 /* KeyboardFriendlyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100004300010000000002 /* KeyboardFriendlyTextField.swift */; };
 		B100004500010000000001 /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100004500010000000002 /* ToastManager.swift */; };
 		B100005200010000000001 /* LayoutApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005200010000000002 /* LayoutApiService.swift */; };
+		B100005400010000000001 /* DataApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005400010000000002 /* DataApiService.swift */; };
+		B100005500010000000001 /* ContainerLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005500010000000002 /* ContainerLayoutView.swift */; };
+		B100005600010000000001 /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005600010000000002 /* LayoutHelper.swift */; };
+		B100005800010000000001 /* AccordionWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005800010000000002 /* AccordionWidgetView.swift */; };
+		B100005900010000000001 /* ActivityFeedWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005900010000000002 /* ActivityFeedWidgetView.swift */; };
+		B100005A00010000000001 /* AreaChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005A00010000000002 /* AreaChartWidgetView.swift */; };
+		B100005B00010000000001 /* BarChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005B00010000000002 /* BarChartWidgetView.swift */; };
+		B100005C00010000000001 /* BubbleChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005C00010000000002 /* BubbleChartWidgetView.swift */; };
+		B100005D00010000000001 /* ButtonWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005D00010000000002 /* ButtonWidgetView.swift */; };
+		B100005E00010000000001 /* CalendarWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005E00010000000002 /* CalendarWidgetView.swift */; };
+		B100005F00010000000001 /* CandlestickWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100005F00010000000002 /* CandlestickWidgetView.swift */; };
+		B100006000010000000001 /* CardWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006000010000000002 /* CardWidgetView.swift */; };
+		B100006100010000000001 /* CarouselWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006100010000000002 /* CarouselWidgetView.swift */; };
+		B100006200010000000001 /* ChatWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006200010000000002 /* ChatWidgetView.swift */; };
+		B100006300010000000001 /* ComprehensiveTableWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006300010000000002 /* ComprehensiveTableWidgetView.swift */; };
+		B100006400010000000001 /* ContactWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006400010000000002 /* ContactWidgetView.swift */; };
+		B100006500010000000001 /* DonutChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006500010000000002 /* DonutChartWidgetView.swift */; };
+		B100006600010000000001 /* FieldWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006600010000000002 /* FieldWidgetView.swift */; };
+		B100006700010000000001 /* FileUploadWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006700010000000002 /* FileUploadWidgetView.swift */; };
+		B100006800010000000001 /* FileViewerWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006800010000000002 /* FileViewerWidgetView.swift */; };
+		B100006900010000000001 /* FunnelChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006900010000000002 /* FunnelChartWidgetView.swift */; };
+		B100006A00010000000001 /* GanttChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006A00010000000002 /* GanttChartWidgetView.swift */; };
+		B100006B00010000000001 /* GoogleMapWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006B00010000000002 /* GoogleMapWidgetView.swift */; };
+		B100006C00010000000001 /* HeatMapWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006C00010000000002 /* HeatMapWidgetView.swift */; };
+		B100006D00010000000001 /* IFrameWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006D00010000000002 /* IFrameWidgetView.swift */; };
+		B100006E00010000000001 /* ImageDisplayWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006E00010000000002 /* ImageDisplayWidgetView.swift */; };
+		B100006F00010000000001 /* ImportWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100006F00010000000002 /* ImportWidgetView.swift */; };
+		B100007000010000000001 /* KanbanWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007000010000000002 /* KanbanWidgetView.swift */; };
+		B100007100010000000001 /* KnowledgeGraphWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007100010000000002 /* KnowledgeGraphWidgetView.swift */; };
+		B100007200010000000001 /* LineChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007200010000000002 /* LineChartWidgetView.swift */; };
+		B100007300010000000001 /* MetricWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007300010000000002 /* MetricWidgetView.swift */; };
+		B100007400010000000001 /* PaymentGatewayWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007400010000000002 /* PaymentGatewayWidgetView.swift */; };
+		B100007500010000000001 /* PieChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007500010000000002 /* PieChartWidgetView.swift */; };
+		B100007600010000000001 /* PipelineWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007600010000000002 /* PipelineWidgetView.swift */; };
+		B100007700010000000001 /* RadarChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007700010000000002 /* RadarChartWidgetView.swift */; };
+		B100007800010000000001 /* RadialChartWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007800010000000002 /* RadialChartWidgetView.swift */; };
+		B100007900010000000001 /* ReportsWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007900010000000002 /* ReportsWidgetView.swift */; };
+		B100007A00010000000001 /* RichTextDisplayWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007A00010000000002 /* RichTextDisplayWidgetView.swift */; };
+		B100007B00010000000001 /* RichTextEditorWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007B00010000000002 /* RichTextEditorWidgetView.swift */; };
+		B100007C00010000000001 /* StepperWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007C00010000000002 /* StepperWidgetView.swift */; };
+		B100007D00010000000001 /* TabWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007D00010000000002 /* TabWidgetView.swift */; };
+		B100007E00010000000001 /* TableWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007E00010000000002 /* TableWidgetView.swift */; };
+		B100007F00010000000001 /* TemplateBuilderWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100007F00010000000002 /* TemplateBuilderWidgetView.swift */; };
+		B100008000010000000001 /* TodoListWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100008000010000000002 /* TodoListWidgetView.swift */; };
+		B100008100010000000001 /* VideoDisplayWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100008100010000000002 /* VideoDisplayWidgetView.swift */; };
+		B100008200010000000001 /* WhiteboardWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100008200010000000002 /* WhiteboardWidgetView.swift */; };
+		B100008300010000000001 /* WidgetNameTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100008300010000000002 /* WidgetNameTemplateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,11 +123,59 @@
 		B100003100010000000002 /* WidgetRenderContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetRenderContext.swift; sourceTree = "<group>"; };
 		B100003200010000000002 /* WidgetAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetAction.swift; sourceTree = "<group>"; };
 		B100003300010000000002 /* WidgetHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHost.swift; sourceTree = "<group>"; };
+		B100008500010000000002 /* WidgetErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetErrorWrapper.swift; sourceTree = "<group>"; };
 		B100004000010000000002 /* AppNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationStack.swift; sourceTree = "<group>"; };
 		B100004100010000000002 /* NotFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundView.swift; sourceTree = "<group>"; };
 		B100004300010000000002 /* KeyboardFriendlyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFriendlyTextField.swift; sourceTree = "<group>"; };
 		B100004500010000000002 /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
 		B100005200010000000002 /* LayoutApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutApiService.swift; sourceTree = "<group>"; };
+		B100005400010000000002 /* DataApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataApiService.swift; sourceTree = "<group>"; };
+		B100005500010000000002 /* ContainerLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerLayoutView.swift; sourceTree = "<group>"; };
+		B100005600010000000002 /* LayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutHelper.swift; sourceTree = "<group>"; };
+		B100005800010000000002 /* AccordionWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionWidgetView.swift; sourceTree = "<group>"; };
+		B100005900010000000002 /* ActivityFeedWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFeedWidgetView.swift; sourceTree = "<group>"; };
+		B100005A00010000000002 /* AreaChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartWidgetView.swift; sourceTree = "<group>"; };
+		B100005B00010000000002 /* BarChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWidgetView.swift; sourceTree = "<group>"; };
+		B100005C00010000000002 /* BubbleChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChartWidgetView.swift; sourceTree = "<group>"; };
+		B100005D00010000000002 /* ButtonWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWidgetView.swift; sourceTree = "<group>"; };
+		B100005E00010000000002 /* CalendarWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidgetView.swift; sourceTree = "<group>"; };
+		B100005F00010000000002 /* CandlestickWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandlestickWidgetView.swift; sourceTree = "<group>"; };
+		B100006000010000000002 /* CardWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWidgetView.swift; sourceTree = "<group>"; };
+		B100006100010000000002 /* CarouselWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselWidgetView.swift; sourceTree = "<group>"; };
+		B100006200010000000002 /* ChatWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWidgetView.swift; sourceTree = "<group>"; };
+		B100006300010000000002 /* ComprehensiveTableWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveTableWidgetView.swift; sourceTree = "<group>"; };
+		B100006400010000000002 /* ContactWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWidgetView.swift; sourceTree = "<group>"; };
+		B100006500010000000002 /* DonutChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartWidgetView.swift; sourceTree = "<group>"; };
+		B100006600010000000002 /* FieldWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldWidgetView.swift; sourceTree = "<group>"; };
+		B100006700010000000002 /* FileUploadWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadWidgetView.swift; sourceTree = "<group>"; };
+		B100006800010000000002 /* FileViewerWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewerWidgetView.swift; sourceTree = "<group>"; };
+		B100006900010000000002 /* FunnelChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnelChartWidgetView.swift; sourceTree = "<group>"; };
+		B100006A00010000000002 /* GanttChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanttChartWidgetView.swift; sourceTree = "<group>"; };
+		B100006B00010000000002 /* GoogleMapWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapWidgetView.swift; sourceTree = "<group>"; };
+		B100006C00010000000002 /* HeatMapWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapWidgetView.swift; sourceTree = "<group>"; };
+		B100006D00010000000002 /* IFrameWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFrameWidgetView.swift; sourceTree = "<group>"; };
+		B100006E00010000000002 /* ImageDisplayWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayWidgetView.swift; sourceTree = "<group>"; };
+		B100006F00010000000002 /* ImportWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportWidgetView.swift; sourceTree = "<group>"; };
+		B100007000010000000002 /* KanbanWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanWidgetView.swift; sourceTree = "<group>"; };
+		B100007100010000000002 /* KnowledgeGraphWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeGraphWidgetView.swift; sourceTree = "<group>"; };
+		B100007200010000000002 /* LineChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartWidgetView.swift; sourceTree = "<group>"; };
+		B100007300010000000002 /* MetricWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricWidgetView.swift; sourceTree = "<group>"; };
+		B100007400010000000002 /* PaymentGatewayWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGatewayWidgetView.swift; sourceTree = "<group>"; };
+		B100007500010000000002 /* PieChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartWidgetView.swift; sourceTree = "<group>"; };
+		B100007600010000000002 /* PipelineWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineWidgetView.swift; sourceTree = "<group>"; };
+		B100007700010000000002 /* RadarChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChartWidgetView.swift; sourceTree = "<group>"; };
+		B100007800010000000002 /* RadialChartWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialChartWidgetView.swift; sourceTree = "<group>"; };
+		B100007900010000000002 /* ReportsWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsWidgetView.swift; sourceTree = "<group>"; };
+		B100007A00010000000002 /* RichTextDisplayWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDisplayWidgetView.swift; sourceTree = "<group>"; };
+		B100007B00010000000002 /* RichTextEditorWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextEditorWidgetView.swift; sourceTree = "<group>"; };
+		B100007C00010000000002 /* StepperWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperWidgetView.swift; sourceTree = "<group>"; };
+		B100007D00010000000002 /* TabWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabWidgetView.swift; sourceTree = "<group>"; };
+		B100007E00010000000002 /* TableWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableWidgetView.swift; sourceTree = "<group>"; };
+		B100007F00010000000002 /* TemplateBuilderWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateBuilderWidgetView.swift; sourceTree = "<group>"; };
+		B100008000010000000002 /* TodoListWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListWidgetView.swift; sourceTree = "<group>"; };
+		B100008100010000000002 /* VideoDisplayWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDisplayWidgetView.swift; sourceTree = "<group>"; };
+		B100008200010000000002 /* WhiteboardWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteboardWidgetView.swift; sourceTree = "<group>"; };
+		B100008300010000000002 /* WidgetNameTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetNameTemplateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				B100005200010000000002 /* LayoutApiService.swift */,
+				B100005400010000000002 /* DataApiService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -284,8 +381,63 @@
 				B100003100010000000002 /* WidgetRenderContext.swift */,
 				B100003200010000000002 /* WidgetAction.swift */,
 				B100003300010000000002 /* WidgetHost.swift */,
+				B100008500010000000002 /* WidgetErrorWrapper.swift */,
+				B100005500010000000002 /* ContainerLayoutView.swift */,
+				B100005600010000000002 /* LayoutHelper.swift */,
+				B100005700010000000001 /* Renderers */,
 			);
 			path = Widget;
+			sourceTree = "<group>";
+		};
+		B100005700010000000001 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				B100005800010000000002 /* AccordionWidgetView.swift */,
+				B100005900010000000002 /* ActivityFeedWidgetView.swift */,
+				B100005A00010000000002 /* AreaChartWidgetView.swift */,
+				B100005B00010000000002 /* BarChartWidgetView.swift */,
+				B100005C00010000000002 /* BubbleChartWidgetView.swift */,
+				B100005D00010000000002 /* ButtonWidgetView.swift */,
+				B100005E00010000000002 /* CalendarWidgetView.swift */,
+				B100005F00010000000002 /* CandlestickWidgetView.swift */,
+				B100006000010000000002 /* CardWidgetView.swift */,
+				B100006100010000000002 /* CarouselWidgetView.swift */,
+				B100006200010000000002 /* ChatWidgetView.swift */,
+				B100006300010000000002 /* ComprehensiveTableWidgetView.swift */,
+				B100006400010000000002 /* ContactWidgetView.swift */,
+				B100006500010000000002 /* DonutChartWidgetView.swift */,
+				B100006600010000000002 /* FieldWidgetView.swift */,
+				B100006700010000000002 /* FileUploadWidgetView.swift */,
+				B100006800010000000002 /* FileViewerWidgetView.swift */,
+				B100006900010000000002 /* FunnelChartWidgetView.swift */,
+				B100006A00010000000002 /* GanttChartWidgetView.swift */,
+				B100006B00010000000002 /* GoogleMapWidgetView.swift */,
+				B100006C00010000000002 /* HeatMapWidgetView.swift */,
+				B100006D00010000000002 /* IFrameWidgetView.swift */,
+				B100006E00010000000002 /* ImageDisplayWidgetView.swift */,
+				B100006F00010000000002 /* ImportWidgetView.swift */,
+				B100007000010000000002 /* KanbanWidgetView.swift */,
+				B100007100010000000002 /* KnowledgeGraphWidgetView.swift */,
+				B100007200010000000002 /* LineChartWidgetView.swift */,
+				B100007300010000000002 /* MetricWidgetView.swift */,
+				B100007400010000000002 /* PaymentGatewayWidgetView.swift */,
+				B100007500010000000002 /* PieChartWidgetView.swift */,
+				B100007600010000000002 /* PipelineWidgetView.swift */,
+				B100007700010000000002 /* RadarChartWidgetView.swift */,
+				B100007800010000000002 /* RadialChartWidgetView.swift */,
+				B100007900010000000002 /* ReportsWidgetView.swift */,
+				B100007A00010000000002 /* RichTextDisplayWidgetView.swift */,
+				B100007B00010000000002 /* RichTextEditorWidgetView.swift */,
+				B100007C00010000000002 /* StepperWidgetView.swift */,
+				B100007D00010000000002 /* TabWidgetView.swift */,
+				B100007E00010000000002 /* TableWidgetView.swift */,
+				B100007F00010000000002 /* TemplateBuilderWidgetView.swift */,
+				B100008000010000000002 /* TodoListWidgetView.swift */,
+				B100008100010000000002 /* VideoDisplayWidgetView.swift */,
+				B100008200010000000002 /* WhiteboardWidgetView.swift */,
+				B100008300010000000002 /* WidgetNameTemplateView.swift */,
+			);
+			path = Renderers;
 			sourceTree = "<group>";
 		};
 		98EF54578C950D0184B4E143 /* Pods */ = {
@@ -420,10 +572,58 @@
 				B100003100010000000001 /* WidgetRenderContext.swift in Sources */,
 				B100003200010000000001 /* WidgetAction.swift in Sources */,
 				B100003300010000000001 /* WidgetHost.swift in Sources */,
+				B100008500010000000001 /* WidgetErrorWrapper.swift in Sources */,
 				B100004000010000000001 /* AppNavigationStack.swift in Sources */,
 				B100004100010000000001 /* NotFoundView.swift in Sources */,
 				B100004300010000000001 /* KeyboardFriendlyTextField.swift in Sources */,
 				B100004500010000000001 /* ToastManager.swift in Sources */,
+				B100005400010000000001 /* DataApiService.swift in Sources */,
+				B100005500010000000001 /* ContainerLayoutView.swift in Sources */,
+				B100005600010000000001 /* LayoutHelper.swift in Sources */,
+				B100005800010000000001 /* AccordionWidgetView.swift in Sources */,
+				B100005900010000000001 /* ActivityFeedWidgetView.swift in Sources */,
+				B100005A00010000000001 /* AreaChartWidgetView.swift in Sources */,
+				B100005B00010000000001 /* BarChartWidgetView.swift in Sources */,
+				B100005C00010000000001 /* BubbleChartWidgetView.swift in Sources */,
+				B100005D00010000000001 /* ButtonWidgetView.swift in Sources */,
+				B100005E00010000000001 /* CalendarWidgetView.swift in Sources */,
+				B100005F00010000000001 /* CandlestickWidgetView.swift in Sources */,
+				B100006000010000000001 /* CardWidgetView.swift in Sources */,
+				B100006100010000000001 /* CarouselWidgetView.swift in Sources */,
+				B100006200010000000001 /* ChatWidgetView.swift in Sources */,
+				B100006300010000000001 /* ComprehensiveTableWidgetView.swift in Sources */,
+				B100006400010000000001 /* ContactWidgetView.swift in Sources */,
+				B100006500010000000001 /* DonutChartWidgetView.swift in Sources */,
+				B100006600010000000001 /* FieldWidgetView.swift in Sources */,
+				B100006700010000000001 /* FileUploadWidgetView.swift in Sources */,
+				B100006800010000000001 /* FileViewerWidgetView.swift in Sources */,
+				B100006900010000000001 /* FunnelChartWidgetView.swift in Sources */,
+				B100006A00010000000001 /* GanttChartWidgetView.swift in Sources */,
+				B100006B00010000000001 /* GoogleMapWidgetView.swift in Sources */,
+				B100006C00010000000001 /* HeatMapWidgetView.swift in Sources */,
+				B100006D00010000000001 /* IFrameWidgetView.swift in Sources */,
+				B100006E00010000000001 /* ImageDisplayWidgetView.swift in Sources */,
+				B100006F00010000000001 /* ImportWidgetView.swift in Sources */,
+				B100007000010000000001 /* KanbanWidgetView.swift in Sources */,
+				B100007100010000000001 /* KnowledgeGraphWidgetView.swift in Sources */,
+				B100007200010000000001 /* LineChartWidgetView.swift in Sources */,
+				B100007300010000000001 /* MetricWidgetView.swift in Sources */,
+				B100007400010000000001 /* PaymentGatewayWidgetView.swift in Sources */,
+				B100007500010000000001 /* PieChartWidgetView.swift in Sources */,
+				B100007600010000000001 /* PipelineWidgetView.swift in Sources */,
+				B100007700010000000001 /* RadarChartWidgetView.swift in Sources */,
+				B100007800010000000001 /* RadialChartWidgetView.swift in Sources */,
+				B100007900010000000001 /* ReportsWidgetView.swift in Sources */,
+				B100007A00010000000001 /* RichTextDisplayWidgetView.swift in Sources */,
+				B100007B00010000000001 /* RichTextEditorWidgetView.swift in Sources */,
+				B100007C00010000000001 /* StepperWidgetView.swift in Sources */,
+				B100007D00010000000001 /* TabWidgetView.swift in Sources */,
+				B100007E00010000000001 /* TableWidgetView.swift in Sources */,
+				B100007F00010000000001 /* TemplateBuilderWidgetView.swift in Sources */,
+				B100008000010000000001 /* TodoListWidgetView.swift in Sources */,
+				B100008100010000000001 /* VideoDisplayWidgetView.swift in Sources */,
+				B100008200010000000001 /* WhiteboardWidgetView.swift in Sources */,
+				B100008300010000000001 /* WidgetNameTemplateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

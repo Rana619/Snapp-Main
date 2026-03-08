@@ -7,6 +7,7 @@ import com.snapp.data.store.UnauthorizedNotifier
 import com.snapp.domain.repository.AuthRepository
 import com.snapp.presentation.viewmodel.AuthSharedViewModel
 import com.snapp.presentation.viewmodel.LayoutSharedViewModel
+import com.snapp.presentation.viewmodel.PageSharedViewModel
 import org.koin.core.KoinApplication
 import org.koin.core.context.startKoin
 
@@ -22,6 +23,8 @@ object SnappKoin {
     fun getAuthViewModel(): AuthSharedViewModel = koinApp!!.koin.get<AuthSharedViewModel>()
 
     fun getLayoutViewModel(): LayoutSharedViewModel = koinApp!!.koin.get<LayoutSharedViewModel>()
+
+    fun getPageSharedViewModel(): PageSharedViewModel = koinApp!!.koin.get<PageSharedViewModel>()
 
     /** Returns stored session if any (for iOS sync restore so we don't flash Login). Call after doInitKoin. */
     fun getStoredSession(): UserSession? = koinApp!!.koin.get<AuthRepository>().getSession()

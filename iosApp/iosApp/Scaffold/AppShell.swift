@@ -145,7 +145,7 @@ struct AppShell: View {
         Group {
             switch route {
             case .entity(let slug):
-                GenericPageView(title: slug)
+                GenericPageView(slug: slug)
             case .record(let id):
                 RecordDetailView(recordId: id)
             case .reports:

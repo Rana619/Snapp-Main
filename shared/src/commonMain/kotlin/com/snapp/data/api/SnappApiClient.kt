@@ -21,6 +21,7 @@ import io.ktor.client.statement.bodyAsText
 import io.ktor.http.ContentType
 import io.ktor.http.contentType
 import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.buildJsonObject
 
 class SnappApiClient(
     private val client: HttpClient,
@@ -69,10 +70,11 @@ class SnappApiClient(
 
     suspend fun getWidgetData(dataKey: String, body: JsonObject? = null): JsonObject {
         ensureTokenFromStorage()
+        val payload = body ?: buildJsonObject { }
         val text = client.post(url("${ApiEndpoints.DATA_VIEW}/$dataKey")) {
             contentType(ContentType.Application.Json)
             authHeader()?.let { (k, v) -> header(k, v) }
-            if (body != null) setBody(sharedJson.encodeToString(JsonObject.serializer(), body))
+            setBody(sharedJson.encodeToString(JsonObject.serializer(), payload))
         }.bodyAsText()
         return sharedJson.decodeFromString(JsonObject.serializer(), text)
     }

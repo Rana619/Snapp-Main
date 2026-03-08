@@ -15,7 +15,7 @@ val viewModelModule = module {
     single { CoroutineScope(SupervisorJob() + Dispatchers.Default) }
     single { AuthSharedViewModel(get(), get(), get(), get(), get()) }
     single { LayoutSharedViewModel(get<GetLayoutUseCase>(), get<CoroutineScope>()) }
-    single { PageSharedViewModel() }
+    single { PageSharedViewModel(get(), get()) }
     single { WidgetDataSharedViewModel() }
     single { RecordSharedViewModel() }
 }
